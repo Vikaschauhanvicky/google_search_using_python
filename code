@@ -1,0 +1,8 @@
+from googlesearch import search
+
+query = input("Search : ")
+#num 1
+0 : number of search per page
+#stop 10 : top 10 result will be desplay 
+for j in search(query, num=10, stop=10 ):
+    print(j)
